@@ -1,0 +1,1 @@
+print(''.join([chr(x[1] ^ 0x37) if x[0]%2==0 else chr(x[1]^0x13) for x in enumerate(b'q_vThZdLv@zQ{A~@d\\rRdJ')]))
