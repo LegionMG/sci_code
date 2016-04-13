@@ -1,6 +1,3 @@
-
-
-
 def get_funcs(_type):
 	if _type == "arshon":
 		return iter_arshon, jokerify_arshon, count_arshon
@@ -31,12 +28,12 @@ def iter_arshon(word):
 def iter_dejeane(word):
 	new_word = ""
 	for i in word:
-		if i=="a":
-			new_word+="abcacbcabcbacbcacba"
-		if i=="b":
-			new_word+="bcabacabcacbacabacb"
-		if i=="c":
-			new_word+="cabcbabcabacbabcbac"
+		if i=="1":
+			new_word+="1231323123213231321"
+		if i=="2":
+			new_word+="2312131231321312132"
+		if i=="3":
+			new_word+="3123212312132123213"
 	return new_word
 
 def iter_thue(word):
@@ -55,12 +52,12 @@ def iter_thue(word):
 def iter_leech(word):
 	new_word = ""
 	for i in word:
-		if i=="0":
-			new_word+="0121021201210"
 		if i=="1":
-			new_word+="1202102012021"
+			new_word+="1232132312321"
 		if i=="2":
-			new_word+="2010210120102"
+			new_word+="2313213123132"
+		if i=="3":
+			new_word+="3121321231213"
 	return new_word
 
 
@@ -111,7 +108,7 @@ def jokerify_thue(word):
 	new_word = ""
 	for i in word:
 		if i=="a":
-			new_word+="abс_b"
+			new_word+="abc_b"
 		if i=="b":
 			new_word+="acabcb"
 		if i=="c":

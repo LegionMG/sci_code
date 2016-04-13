@@ -15,7 +15,7 @@ def get_random_letter(last_letter):
 
 
 def get_random_letter2(last_letter):
-	alphabet = ["a","b","c","a","b","c","a","b","c","*","*"]
+	alphabet = ["a","b","c"]
 	a = choice(alphabet)
 	while a == last_letter:
 		a = choice(alphabet)
@@ -25,6 +25,8 @@ def get_random_letter2(last_letter):
 def compare(u, w):
 	if len(w) > len(u):
 		return False
+	if w == "*" and u[-1] == "*":
+		return True
 	if len(w) == 1 and (w == "*" or u[len(u)-1] == "*"):
 		return False
 	if u == w:
@@ -42,12 +44,12 @@ def has_repetit(word):
 	stub = ""
 	for i in word:
 		stub+=i
-		if seek_and_del_repetition(stub)!= stub:
-			print(seek_and_del_repetition(stub), stub)
+		if remove_repetition(stub)!= stub:
+			print(remove_repetition(stub), stub)
 			return True
 	return False
 
-def seek_and_del_repetition(word):
+def remove_repetition(word):
 	for i in range(len(word)-1,-1, -1):
 		if compare(word[:i], word[i:]):
 			#print(word[:i], word[i:], word)
@@ -66,14 +68,14 @@ def main():
 	for i in range(steps):
 		last_letter = get_random_letter(last_letter)
 		word+= last_letter
-		word = seek_and_del_repetition(word)
+		word = remove_repetition(word)
 		print("{0} iteration: ".format(i)+word+"\n tried to add:"+last_letter)
 	'''
 	l = 0
 	while len(word) < length:
 		last_letter = get_random_letter(last_letter)
 		word+= last_letter
-		word = seek_and_del_repetition(word)
+		word = remove_repetition(word)
 		# if len(word)>l:
 		# 	print(len(word))
 		# 	l = len(word)
@@ -84,5 +86,8 @@ def main():
 	print("Time spent :" + str(time() - kek))
 	print("Density of holes : "+ str(word.count("*")/len(word)))
 
+def main2():
+	print(has_repetit("**"))
+
 if __name__ == "__main__":
-	main()
+	main2()

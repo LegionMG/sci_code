@@ -1,0 +1,37 @@
+132123132
+-xxx-x-xxxxxxxxxxx-xxx-xxxxxx-
+132123123
+-xxx-x-xxxxxxxxxxx-xxxxxx-x-xx
+132132123132
+-xxx-x-xxxxxx-xxxxxxxxxxxxx-xxx-xxxxxx-
+		 -xxx-x-xxxxxxxxxxx-xxx-xxxxxx-
+123132123123
+-x-xxxxxx-xxx-xxxxxxxxxxxxx-xxxxxx-x-xx
+
+ff (1/6)*3/30
+132132123132132
+-xxx-x-xxxxxx-xxxxxxxxxxxxx-xxx-xxxxxxxx-xxxxxx-
+		 -xxx-x-xxxxxxxxxxx-xxx-xxxxxx-
+gf (2/6)*4/30
+123132123132132
+-x-xxxxxx-xxx-xxxxxxxxxxxxx-xxx-xxxxxxxx-xxxxxx-
+		 -xxx-x-xxxxxxxxxxx-xxx-xxxxxx-
+
+fg (2/6)*3/30
+132132123123132
+						   -x-xxxxxx-xxx-xxxxxxxxxxxxx-xxxxxxxx-xxx-xxxxxx-
+-xxx-x-xxxxxx-xxxxxxxxxxxxx-xxxxxxxx-xxx-xxxxxx-
+		 -xxx-x-xxxxxxxxxxx-xxxxxx-x-xx
+
+gg (1/6)*4/30
+123132123123132
+-x-xxxxxx-xxx-xxxxxxxxxxxxx-xxxxxxxx-xxx-xxxxxx-
+		 -xxx-x-xxxxxxxxxxx-xxxxxx-x-xx
+
+132132123123132123123132
+abacabcacbabcbacbcabacabcbacbcacbabcabacabcacbabcbacabcacbcabacbabcbacbcaba
+-xxx-x-xxxxxx-xxxxxxxxxxxxx-xxxxxxxx-xxx-xxxxxxxxxxxxx-xxxxxxxx-xxx-xxxxxx-
+						   -x-xxxxxx-xxx-xxxxxxxxxxxxx-xxxxxxxx-xxx-xxxxxx-
+
+
+косяк - наложение блоков, снова
